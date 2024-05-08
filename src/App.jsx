@@ -23,6 +23,15 @@ function App() {
             <OurResourcesSection />
           </div>
         </div>
+        <div className="flex flex-col items-center gap-3">
+          <p className="text-5xl text-center uppercase">
+            We are the trusted experts
+          </p>
+          <p className="text-4xl font-bold text-center text-orange-500 uppercase">
+            Keeping things simple
+          </p>
+          <div className="w-20 h-1 bg-orange-500"></div>
+        </div>
       </main>
     </div>
   );
