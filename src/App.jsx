@@ -10,9 +10,9 @@ import OurResourcesSection from './components/ResourcesSection/OurResourcesSecti
 
 function App() {
   return (
-    <div className="flex min-h-screen text-black bg-blue-200 w-screen">
+    <div className="flex w-screen min-h-screen text-black bg-blue-200">
       <Nav />
-      <main className="w-3/4 flex-grow ">
+      <main className="flex-grow w-3/4 ">
         <Header />
         <Carousel />
         <div className="flex gap-10 px-5 py-10 ">
@@ -45,12 +45,12 @@ function App() {
           </div>
         </div>
 
-        <div className="pt-10 px-2 flex flex-col items-center gap-2">
+        <div className="flex flex-col items-center gap-2 px-2 pt-10">
           <p className="text-4xl font-bold text-center text-orange-500 uppercase">
             Our Conference
           </p>
           <div className="w-20 h-1 bg-orange-500"></div>
-          <div className="grid grid-cols-4 gap-10  pt-5">
+          <div className="grid grid-cols-4 gap-10 pt-5">
             <ConferenceCard />
             <ConferenceCard />
             <ConferenceCard />
@@ -58,7 +58,7 @@ function App() {
           </div>
         </div>
 
-        <div className="mt-10 pt-10 px-20 flex flex-col items-center gap-2 bg-green-400">
+        <div className="flex flex-col items-center gap-2 px-20 pt-10 mt-10 bg-gradient-to-r from-sky-500 to-green-500">
           <p className="text-4xl font-bold text-center text-white uppercase">
             Our Archives
           </p>
